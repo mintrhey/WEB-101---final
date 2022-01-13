@@ -1,0 +1,25 @@
+.main-register {
+    margin-left: 300px; 
+    margin-right: 300px;
+}
+.main-list {
+    width: 1200px;
+}
+input:invalid, select:invalid{
+    border: 2px solid red;
+}
+.hidden{
+    display:none;
+}
+.result {
+    max-width: 80px;
+}
+.marg-right {
+    margin-right: 10px;
+}
+.marg-left {
+    margin-left: 10px;
+}
+.marg-top {
+    margin-top:10px;
+}
