@@ -40,7 +40,7 @@ if($_POST['action'] == "addUser")
         $stmt->bindParam(":yearLevel",$yearLevel);
 
         if($stmt->execute()){
-            
+
             $value = "";
             $value = '<div class="alert alert-success marg-top" role="alert">User registered successfully</div>';
 
