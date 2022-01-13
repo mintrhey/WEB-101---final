@@ -17,7 +17,7 @@ $(document).ready(function(){
 		}else if(!/\d{3}-\d{5}/.test(idNumber)){
 			$('#warning-message').addClass('alert alert-danger marg-top');
 			$('#warning-message').html('Follow the right format of the ID Number');
-		}else if(yearLevel < 0 || yearLevel > 5){
+		}else if(yearLevel < 1 || yearLevel > 5){
 			$('#warning-message').addClass('alert alert-danger marg-top');
 			$('#warning-message').html('Year level must be greater than 1 and lesser than 6');
 		}else{
