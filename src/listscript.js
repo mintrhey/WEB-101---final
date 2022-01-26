@@ -96,7 +96,7 @@ function updateUser()
         }else if(!/\d{3}-\d{5}/.test(updateIDnumber)){
             $('#up-message').html('Follow the correct format of the ID Number');
         }else if(updateYearLevel < 1 || updateYearLevel > 5){
-            $('#up-message').html('Year level must be greater than 1 and lesser than 6');
+            $('#up-message').html('Year level must be greater than 0 and lesser than 6');
         }else
         {
             $.ajax(
